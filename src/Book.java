@@ -15,11 +15,11 @@ public class Book {
         return this.year;
     }
 
-    public String getAuthor() {
-        return this.author.getName() + " " + this.author.getLastName();
-    }
     public void setYear(int year) {
         this.year = year;
+    }
+    public String getAuthor() {
+        return this.author.getAuthor();
     }
 
 
