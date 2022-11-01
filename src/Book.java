@@ -9,17 +9,16 @@ public class Book {
         this.author = author;
     }
     public String getBook(){
-        return this.book;
+        return book;
     }
     public int getYear(){
-        return this.year;
+        return year;
     }
-
     public void setYear(int year) {
         this.year = year;
     }
-    public String getAuthor() {
-        return this.author.getAuthor();
+    public Author getAuthor() {
+        return author;
     }
 
 
